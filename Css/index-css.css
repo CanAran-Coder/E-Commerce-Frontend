@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+#navbar-container {
+    height: 10vh;
+    width: 100%;
+    background-color: #7F8CAA;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-bottom-style: solid;
+    border-color: #B8CFCE;
+}
+
+#navbar-catalogs {
+    height: 5vh;
+    width: 100%;
+    background-color: #7F8CAA;
+}
+
+#banner {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 15px;
+}
+
+.navbar-icons {
+    height: 50%;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#searchbar {
+    background-color: snow;
+    height: 80%;
+    flex: 0.5;
+    border-style: solid;
+    border-color: #1B3C53;
+    border-radius: 3rem;
+}
+
+#search-box {
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-style: none;
+}
+
+.catalogfont {
+    color: snow !important;
+    margin: 0 !important;
+    cursor: pointer;
+
+}
+
+.catalogfont:hover {
+    color: #333446 !important;
+
+}
+
+#slider-main-page {
+    height: 55vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-main-divs {
+    flex: 0 0 100%;
+    height: 100%;
+}
+
+#slider-images {
+    width: 100%;
+    height: 100%;
+    transition: transform ease-in-out 0.5s;
+}
+
+#slider-arrow-left {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#slider-arrow-right {
+    z-index: 1000;
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#sliderFirstDiv {
+    background-image: url("../Images/pexels-tkirkgoz-16615841.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sliderSecondDiv {
+    background-image: url("../Images/pexels-marek-piwnicki-3907296-17651133.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#sliderFirstContainer {
+    background-color: rgba(255, 250, 250, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#sliderSecondContainer {
+    background-color: rgba(255, 250, 250, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#products {
+    background-color: #333446;
+    height: auto;
+    width: 100%;
+}
+
+.product-price {
+    right: 0;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: #456882;
+    color: snow;
+}
+
+.card-shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-bg {
+    background-color: #456882;
+    border-radius: 0.6rem;
+}
+
+.card-fonts {
+    color: snow !important;
+}
+
+.card-btn {
+    background-color: #94B4C1 !important;
+    color: snow !important;
+    width: 100%;
+
+}
+
+.card-btn:hover {
+    background-color: #1B3C53 !important;
+}
+
+.flex-one {
+    flex: 1 !important;
+}
+
+#greatDeal {
+    background-color: #547792;
+    width: 100%;
+    height: auto;
+}
+
+
+
+#dealImageContent {
+    object-fit: fill;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+#animatedDeal {
+    animation-name: dealAnimation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+@keyframes dealAnimation {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 1.05;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+.text-lightgreen {
+    color: lightgreen;
+}
+
+.text-orange {
+    color: #DAA520;
+}
+
+#userComments {
+    background-color: #94B4C1;
+}
+
+.portreit {
+    object-fit: fill;
+    object-position: center;
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    margin: 10px;
+    ;
+}
+
+.commentsHeader {
+    color: snow;
+}
+
+#whyWe {
+    background-color: #ECEFCA;
+}
+
+.whyWeImages {
+    object-fit: fill;
+    width: 3rem;
+    height: auto;
+}
+
+
+.resize-none {
+    resize: none !important;
+}
+
+
+#contact-table td {
+    border-bottom-width: 0 !important;
+    padding: 0 !important;
+}
+
+#contactUs {
+    background-color: #213448;
+}
+
+.color-snow {
+    color: snow !important;
+}
+
+#contactW50Container {
+    border: solid;
+    padding: 1rem;
+    border-radius: 2rem;
+    border-color: snow;
+}
+
+#footer {
+    background-color: #213448;
+    border-top: solid;
+    border-color: snow;
+    height: 300px;
+}
+
+.footerImages {
+    object-fit: fill;
+    width: 3rem;
+    height: auto;
+}
+
+
+.navBanner{
+    width: auto;
+    height: 100%!important;
+    object-fit: fill;
+    object-position: center;
+}
