@@ -17,6 +17,7 @@ In this project i showed you how e-commerce projects should look.I have designed
 
 ## Screenshots
 ![SS1](Images/githubImages/SS1.png)
-![SS1](Images/githubImages/SS2.png)
-![SS1](Images/githubImages/SS3.png)
-![SS1](Images/githubImages/SS4.png)
+![SS2](Images/githubImages/SS3.png)
+![SS4](Images/githubImages/SS4.png)
+![SS5](Images/githubImages/SS5.png)
+![SS6](Images/githubImages/SS6.png)
