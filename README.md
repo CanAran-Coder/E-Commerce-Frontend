@@ -16,4 +16,7 @@ In this project i showed you how e-commerce projects should look.I have designed
 - Javascript(vanilla)
 
 ## Screenshots
-![SS1](images/githubImages/SS1.png)
+![SS1](Images/githubImages/SS1.png)
+![SS1](Images/githubImages/SS2.png)
+![SS1](Images/githubImages/SS3.png)
+![SS1](Images/githubImages/SS4.png)
