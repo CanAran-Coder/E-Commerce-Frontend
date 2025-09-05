@@ -1,6 +1,6 @@
 # E-Commerce Frontend Only
 
-In this project i showed you how e-commerce projects should look.I have designed a modern e-commerce fronted example using basic technologys.
+In this project i showed you how e-commerce projects should look.I have designed a modern e-commerce fronted example using basic technologies.
 
 
 ## Get the project
@@ -9,7 +9,7 @@ In this project i showed you how e-commerce projects should look.I have designed
   git clone https://github.com/CanAran-Coder/E-Commerce-Frontend.git
 ```
 
-## Technologys
+## Technologies
 - HTML
 - CSS
 - Bootstrap
